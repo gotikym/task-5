@@ -3,10 +3,10 @@
     {
         static void Main(string[] args)
         {
-        var firstName = "Malkovskii";
-        var secondName = "Ivan";
+        string firstName = "Malkovskii";
+        string secondName = "Ivan";
         Console.WriteLine(firstName + " " + secondName);
-        var switchName = secondName;
+        string switchName = secondName;
         secondName = firstName;
         firstName = switchName;
         Console.WriteLine(firstName + " " + secondName);
